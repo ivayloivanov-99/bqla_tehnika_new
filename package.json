@@ -1,0 +1,26 @@
+{
+  "name": "bqla_tehnika",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd backend && ts-node app.ts",
+    "frontend-vue": "cd frontend && npm run serve",
+    "dev-vue": "concurrently \"npm run server\" \"npm run frontend-vue\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "concurrently": "^7.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "react": "^18.1.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}
